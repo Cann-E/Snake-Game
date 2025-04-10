@@ -1,4 +1,4 @@
-# RaySnake
+# Retro Snake
 
 A modern take on the classic Snake game, built with C++ and powered by [raylib](https://www.raylib.com/). This project includes custom graphics, sounds, and a simple game loop showcasing core game development concepts.
 
