@@ -56,11 +56,3 @@ If you’re using a different OS, update the Makefile or use CMake accordingly.
 
 ![Gameplay Screenshot](preview.jpg)
 
-## 🧾 License
-
-This project is licensed under the MIT License — see the [LICENSE.txt](LICENSE.txt) file for details.
-
-## ✨ Acknowledgements
-
-- [raylib](https://github.com/raysan5/raylib) by @raysan5
-- Sound and sprite resources from OpenGameArt.org (if applicable)
