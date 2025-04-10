@@ -41,7 +41,7 @@ A modern take on the classic Snake game, built with C++ and powered by [raylib](
 ```bash
 # Clone the repo
 git clone https://github.com/yourusername/raysnake.git
-cd raysnake
+cd Retro Snake
 
 # Compile
 make
