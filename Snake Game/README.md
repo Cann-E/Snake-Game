@@ -1,26 +1,66 @@
-# Raylib C++ Starter Template
+# RaySnake
 
-Raylib C++ Starter Template for Visual Studio Code on Windows.
+A modern take on the classic Snake game, built with C++ and powered by [raylib](https://www.raylib.com/). This project includes custom graphics, sounds, and a simple game loop showcasing core game development concepts.
 
-This demo project contains a bouncing ball raylib example program.
+## 🎮 Features
 
-It works with raylib version 4.5.
-Tested on both Windows 10 and Windows 11.
+- Smooth 2D snake movement
+- Food spawning and score tracking
+- Basic collision detection
+- Retro-inspired pixel graphics
+- Sound effects and background music
 
-# Video Tutorial
+## 🛠️ Built With
 
-<p align="center">
-  <img src="preview.jpg" alt="" width="800">
-</p>
+- **C++**
+- **raylib** — a simple and easy-to-use library to enjoy videogame programming
+- Custom assets (found in `/Graphics` and `/Sounds`)
 
-<p align="center">
-🎥 <a href="https://www.youtube.com/watch?v=PaAcVk5jUd8">Video Tutorial on YouTube</a>
-</p>
+## 📁 Project Structure
 
-<br>
-<br>
-<p align="center">
-| 📺 <a href="https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg">My YouTube Channel</a>
-| 🌍 <a href="http://www.educ8s.tv">My Website</a> | <br>
-</p>
+```
+.
+├── Graphics/         # Game sprites and textures
+├── Sounds/           # Sound effects and music
+├── main.cpp          # Core game loop and logic
+├── Snake.exe         # Compiled game binary (Windows)
+├── Makefile          # Build instructions
+├── LICENSE.txt       # License info
+├── README.md         # Project documentation
+```
 
+## 🚀 Getting Started
+
+### Prerequisites
+
+- C++17 or higher
+- raylib (installed or linked locally)
+
+### Build Instructions
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/raysnake.git
+cd raysnake
+
+# Compile
+make
+
+# Run the game
+./Snake.exe
+```
+
+If you’re using a different OS, update the Makefile or use CMake accordingly.
+
+## 📸 Preview
+
+![Gameplay Screenshot](preview.jpg)
+
+## 🧾 License
+
+This project is licensed under the MIT License — see the [LICENSE.txt](LICENSE.txt) file for details.
+
+## ✨ Acknowledgements
+
+- [raylib](https://github.com/raysan5/raylib) by @raysan5
+- Sound and sprite resources from OpenGameArt.org (if applicable)
